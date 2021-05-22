@@ -1,11 +1,10 @@
-
 /* SIDES */
 
 const sides = [
-  ['up', HYPER, ['top']],
-  ['right', HYPER, ['right']],
-  ['down', HYPER, ['bottom']],
-  ['left', HYPER, ['left']]
+  ["k", HYPER, ["top"]],
+  ["l", HYPER, ["right"]],
+  ["k", HYPER, ["bottom"]],
+  ["h", HYPER, ["left"]],
 ];
 
-setKeysHandler ( setFrame, sides );
+setKeysHandler(setFrame, sides);
